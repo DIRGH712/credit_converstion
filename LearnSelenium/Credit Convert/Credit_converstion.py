@@ -30,7 +30,7 @@ def read_CSV():
     global data_list
     final_num = ''
     # Open the CSV file for reading
-    with open('/Users/dirghpatel/ULC work/2237BC-Courses.csv', 'r') as csv_file: #change file path[Its the input .csv] according to your local machine
+    with open('/2237BC-Courses.csv', 'r') as csv_file: #change file path[Its the input .csv] according to your local machine
         # Create a CSV reader
         csv_reader = csv.DictReader(csv_file)
 
@@ -184,7 +184,7 @@ def initialize_browser():
                         EC.presence_of_element_located((By.XPATH, "//div[@class='messageBox']")))
                     message = message_box.text
 
-                    csv_filename = 'person_data.csv'
+                    csv_filename = '../person_data.csv'
 
                     status = "Success" if "Congratulations" in message else "Failed"
                     data = {
