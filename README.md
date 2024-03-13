@@ -1,3 +1,8 @@
+# Project Components
+- The script can be found in `LearnSelenium/Credit Convert` which computes appropriate reports for given input
+- A simple `config.json` to keep your credentials to automate Asuruite login + duo push authentication
+- A `requirements.txt` with all python libraries needed to get this script running.
+
 # Getting Started
 Before importing this project to your Python workspace, it is necessary to make sure the prerequisite steps are properly done in your development environment.
 
